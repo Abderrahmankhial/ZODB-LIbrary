@@ -14,14 +14,12 @@ structure of the database
 }
 functions:
     borrowBook(book_name)
-    returnBook(book_name) #todo add way to ensure that the returned book does exist in the database
-    displayAvailableBooks() #todo add way to display all books or the ones that are available
-    login(username,passwd)#* good
-    signup(username,passwd)#*good
-    gui()#todo try and make it in window 
-    add_object(obj)#! needs to be tweaked
-    whoami()#todo add way to choose between librarian and student preferd to be in sign up precedure
-    
+    returnBook(book_name)
+    displayAvailableBooks() 
+    signup(username,passwd)
+    gui()
+    add_object(obj)
+    whoami()
 
 Algorithm:
     1-choose between student or librarian
